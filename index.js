@@ -48,7 +48,6 @@ function addGamesToPage(games) {
             <p>${games[idx]["description"]}</p>    
         `
         gameCard.innerHTML = game
-        console.log(idx)
 
 
         // append the game to the games-container
