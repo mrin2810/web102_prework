@@ -35,7 +35,7 @@ function addGamesToPage(games) {
         let gameCard = document.createElement('div')
 
         // add the class game-card to the list
-        game_card.classList.add("game-card");
+        gameCard.classList.add("game-card");
 
 
         // set the inner HTML using a template literal to display some info 
@@ -48,6 +48,7 @@ function addGamesToPage(games) {
             <p>${games[idx]["description"]}</p>    
         `
         gameCard.innerHTML = game
+        console.log(idx)
 
 
         // append the game to the games-container
